@@ -57,7 +57,7 @@ et un json qui prend la forme de l'exemple suivant :
  "city":"Lacanau",
  "room":"9",
  "room_desc":"Une description",
- "owner":2
+ "owner":2,
  "property_type":"Maison de plage"
 }
 ```
