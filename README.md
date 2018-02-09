@@ -10,21 +10,21 @@ La base de données contient les tables suivent l'architecture suivante :
 ```sql
 CREATE TABLE users(
    id_user 		        INTEGER PRIMARY KEY     AUTOINCREMENT,
-   first_name         CHAR(50)    NOT NULL,
-   last_name          CHAR(50)    NOT NULL,
+   first_name          CHAR(50)    NOT NULL,
+   last_name           CHAR(50)    NOT NULL,
    birthday		        DATE
 );
 ```
 
 ```sql
 CREATE TABLE properties(
-   id_property 		    INTEGER PRIMARY KEY     AUTOINCREMENT,
+   id_property 		 INTEGER PRIMARY KEY     AUTOINCREMENT,
    name          	    CHAR(50)    NOT NULL,
    description        TEXT    NOT NULL,
    property_type	    CHAR(20),
-   city			          CHAR(20),
-   room			          INT,
-   room_desc		      TEXT,
+   city			       CHAR(20),
+   room			       INT,
+   room_desc		    TEXT,
    owner              INT, 
    FOREIGN KEY(owner) REFERENCES users(id_user)  
 );
