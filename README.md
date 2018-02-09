@@ -54,10 +54,11 @@ et un json qui prend la forme de l'exemple suivant :
 { 
  "name":"La mer", 
  "description":"Pas loin de la mer", 
- "city":"Bordeaux",
+ "city":"Lacanau",
  "room":"9",
  "room_desc":"Une description",
  "owner":2
+ "property_type":"Maison de plage"
 }
 ```
 
